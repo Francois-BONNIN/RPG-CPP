@@ -1,12 +1,14 @@
 #include "round.h"
 #include <iostream>
+#include <vector>
 #include "ia.h"
 
 using namespace std;
 
+
 // Charger les valeurs necessaire au bon fonctionnement du tour
 
-int tour::ActonJoueur = 0;
+int tour::ActionJoueur = 0;
 int tour::ActionIA = 0;
 vector<specIA> windows::listMageIA;
 vector<int> windows::listAttack;
